@@ -19,3 +19,15 @@ use App\Models\User;
 Route::get('/user', function () {
     return User::all();
 });
+
+Route::post('/user', function (Request $request) {
+    $user = new User([
+        'name' => $request->get('name'),
+        'email' => $request->get('email'),
+        'password' => $request->get('password')
+    ]);
+
+    $user->save();
+
+    return "User created successfully !";
+});
