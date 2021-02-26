@@ -19,11 +19,11 @@ class CreateBlogsTable extends Migration
             $table->string('title');
             $table->string('content');
             $table->string('author');
-            $table->timestamp('date');
+            $table->date('date');
             $table->string('category');
             $table->string('picture');
             $table->foreignId('approved_by')->nullable();
-            $table->timestamp('when_approved')->nullable();
+            $table->date('when_approved')->nullable();
             $table->integer('claps')->nullable();
             $table->boolean('approved')->nullable();
         });

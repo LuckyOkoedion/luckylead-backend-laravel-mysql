@@ -21,11 +21,11 @@ class CreateUsersTable extends Migration
             $table->string('role')->nullable();
             $table->string('permissions')->nullable();
             $table->boolean('approved')->nullable();
-            $table->timestamp('when_approved')->nullable();
+            $table->date('when_approved')->nullable();
             $table->foreignId('approved_by')->nullable();
             $table->boolean('email_verified')->nullable();
             $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
+            $table->date('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();

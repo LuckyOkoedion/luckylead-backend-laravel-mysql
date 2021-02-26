@@ -19,7 +19,7 @@ class CreateFreelanceOfficeDealingsTable extends Migration
             $table->foreignId('freelancer')->unique();
             $table->boolean('approved');
             $table->foreignId('approved_by')->nullable();
-            $table->timestamp('when_approved')->nullable();
+            $table->date('when_approved')->nullable();
             $table->string('account_name')->nullable();
             $table->string('account_number')->nullabe();
             $table->string('bank_name')->nullable();

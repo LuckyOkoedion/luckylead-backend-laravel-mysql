@@ -16,7 +16,7 @@ class CreateFreelanceApplicationsTable extends Migration
         Schema::create('freelance_applications', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user')->unique();
-            $table->timestamp('approved_when');
+            $table->date('approved_when');
             $table->boolean('approved');
             $table->foreignId('approved_by');
             $table->timestamps();

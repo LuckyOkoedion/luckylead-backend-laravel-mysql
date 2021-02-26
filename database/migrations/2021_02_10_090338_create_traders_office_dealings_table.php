@@ -22,7 +22,7 @@ class CreateTradersOfficeDealingsTable extends Migration
             $table->string('id_upload')->nullable();
             $table->string('contract_upload')->nullable();
             $table->foreignId('approved_by')->nullable();
-            $table->timestamp('when_approved')->nullable();
+            $table->date('when_approved')->nullable();
             $table->string('brand_name');
             $table->string('business_office');
             $table->string('bank_name');

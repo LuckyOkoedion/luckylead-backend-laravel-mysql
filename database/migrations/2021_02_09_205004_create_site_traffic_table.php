@@ -16,7 +16,7 @@ class CreateSiteTrafficTable extends Migration
         Schema::create('site_traffic', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user')->nullable();
-            $table->timestamp('timestamp');
+            $table->date('timestamp');
             $table->string('page_url');
             $table->ipAddress('ip_address');
             $table->timestamps();

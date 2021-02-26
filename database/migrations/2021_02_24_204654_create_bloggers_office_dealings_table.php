@@ -17,7 +17,7 @@ class CreateBloggersOfficeDealingsTable extends Migration
             $table->id();
             $table->foreignId('user')->unique();
             $table->boolean('approved');
-            $table->timestamps('approved_when');
+            $table->date('approved_when');
             $table->foreignId('approved_by');
             $table->timestamps();
         });
