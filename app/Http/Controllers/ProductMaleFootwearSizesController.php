@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\ProductMaleFootwearSizes;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 class ProductMaleFootwearSizesController extends Controller
 {

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\ClientUpdate;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 class ClientUpdateController extends Controller
 {

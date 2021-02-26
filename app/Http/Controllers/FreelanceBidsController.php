@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\FreelanceBids;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 class FreelanceBidsController extends Controller
 {

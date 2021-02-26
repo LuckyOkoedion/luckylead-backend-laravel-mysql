@@ -6,6 +6,7 @@ use App\Models\Job;
 use App\Models\Client;
 use App\Models\ClientUpdate;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 class JobController extends Controller
 { 

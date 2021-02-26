@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\TradersApplication;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 class TradersApplicationController extends Controller
 {

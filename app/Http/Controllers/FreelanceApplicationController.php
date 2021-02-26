@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\FreelanceApplication;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 class FreelanceApplicationController extends Controller
 {
