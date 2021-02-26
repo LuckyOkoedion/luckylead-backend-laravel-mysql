@@ -1,0 +1,17 @@
+ALL USERS:
+manage_own_comment,manage_own_profile,apply_for_role,manage_own_mail,manage_own_tasks,place_order
+
+BLOGGER:
+manage_own_blog
+
+TRADER:
+manage_own_shop_and_sales
+
+FREELANCER:
+work_on_projects
+
+MODERATOR:
+manage_others_comment,manage_others_blog,manage_users,manage_freelancers_and_projects,manage_site_traffic,manage_company_portfolio,manage_own_shop_and_sales,monitor_others_shop_and_sales,manage_jobs_and_clients
+
+ADMIN:
+create_blog,manage_others_blog,manage_users,manage_freelancers_and_projects,manage_site_traffic,manage_company_portfolio,manage_own_shop_and_sales,monitor_others_shop_and_sales,manage_jobs_and_clients,manage_options,create_admin_user,read_user_profiles,manage_others_comment

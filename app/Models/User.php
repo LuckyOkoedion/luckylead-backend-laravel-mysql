@@ -17,9 +17,24 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name',
+        'first_name',
+        'last_name',
+        'picture',
+        'role',
+        'permissions',
         'email',
         'password',
+        'approved',
+        'when_approved',
+        'approved_by',
+        'email_verified'
+    ];
+
+    protected $attributes = [
+        'approved' => true,
+        'email_verified' => false,
+        'role' => 'user',
+        'permissions' => 'manage_own_comment,manage_own_profile,apply_for_role,manage_own_mail,manage_own_tasks,place_order'
     ];
 
     /**
