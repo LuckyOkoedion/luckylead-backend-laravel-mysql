@@ -1,8 +1,42 @@
 <?php
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Models\User;
+
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\BlogCommentsController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\FreelanceOfficeDealingController;
+use App\Http\Controllers\BloggersOfficeDealingsController;
+use App\Http\Controllers\TradersOfficeDealingController;
+use App\Http\Controllers\FreelanceProjectsController;
+use App\Http\Controllers\FreelancerProjectProgressReportController;
+use App\Http\Controllers\SiteTrafficController;
+use App\Http\Controllers\CompanyCreditsController;
+use App\Http\Controllers\CompanyDebitsController;
+use App\Http\Controllers\PortfolioController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\MailController;
+use App\Http\Controllers\TaskController;
+use App\Http\Controllers\JobController;
+use App\Http\Controllers\SalesController;
+use App\Http\Controllers\BlogCategoryOptionsController;
+use App\Http\Controllers\ClientUpdateTypeOptionsController;
+use App\Http\Controllers\FemaleDressSizesOptionsController;
+use App\Http\Controllers\FemaleFootwearSizesOptionsController;
+use App\Http\Controllers\MaleDressSizesOptionsController;
+use App\Http\Controllers\MaleFootwearSizesOptionsController;
+use App\Http\Controllers\ProductCategoryOptionsController;
+use App\Http\Controllers\ProjectDeliverableStatusOptionsController;
+use App\Http\Controllers\ProjectDeliverableController;
+use App\Http\Controllers\ProjectStatusOptionsController;
+use App\Http\Controllers\ClientController;
+use App\Http\Controllers\ClientUpdateController;
+use App\Http\Controllers\FreelanceBidsController;
+use App\Http\Controllers\TradersApplicationController;
+use App\Http\Controllers\BloggersApplicationController;
+use App\Http\Controllers\FreelanceApplicationController;
+
+
 
 
 /*
