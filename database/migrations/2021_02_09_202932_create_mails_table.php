@@ -23,7 +23,7 @@ class CreateMailsTable extends Migration
             $table->boolean('read');
             $table->boolean('reply');
             $table->string('title');
-            $table->string('body');
+            $table->longText('body');
             $table->string('attachment')->nullabel();
             $table->timestamps();
         });

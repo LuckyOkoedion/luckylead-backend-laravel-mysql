@@ -24,9 +24,9 @@ class CreateTradersOfficeDealingsTable extends Migration
             $table->foreignId('approved_by')->nullable();
             $table->date('when_approved')->nullable();
             $table->string('brand_name');
-            $table->string('business_office');
+            $table->longText('business_office');
             $table->string('bank_name');
-            $table->string('bank_address');
+            $table->longText('bank_address');
             $table->string('account_number');
             $table->string('account_name');
             $table->timestamps();

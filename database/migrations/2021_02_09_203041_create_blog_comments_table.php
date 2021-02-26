@@ -18,7 +18,7 @@ class CreateBlogCommentsTable extends Migration
             $table->foreignId('blog');
             $table->foreignId('commenter');
             $table->date('timestamp');
-            $table->string('comment');
+            $table->longText('comment');
             $table->boolean('show');
             $table->timestamps();
         });

@@ -17,7 +17,7 @@ class CreateProductsTable extends Migration
             $table->id();
             $table->string('name');
             $table->foreignId('seller');
-            $table->string('description');
+            $table->longText('description');
             $table->string('picture');
             $table->boolean('male_dress');
             $table->boolean('male_footwear');

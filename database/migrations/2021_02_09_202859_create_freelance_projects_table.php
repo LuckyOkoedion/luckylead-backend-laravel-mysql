@@ -20,7 +20,7 @@ class CreateFreelanceProjectsTable extends Migration
             $table->foreignId('assigned_by')->nullable();
             $table->foreignId('job');
             $table->string('name');
-            $table->string('description');
+            $table->longText('description');
             $table->string('skill_set');
             $table->string('limitation')->nullable();
             $table->string('status');

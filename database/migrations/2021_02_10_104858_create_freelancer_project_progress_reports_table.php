@@ -18,7 +18,7 @@ class CreateFreelancerProjectProgressReportsTable extends Migration
             $table->foreignId('project');
             $table->date('date_submitted');
             $table->foreignId('from');
-            $table->string('report');
+            $table->longText('report');
             $table->string('title');
             $table->timestamps();
         });

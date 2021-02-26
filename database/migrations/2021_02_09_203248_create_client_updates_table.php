@@ -19,7 +19,7 @@ class CreateClientUpdatesTable extends Migration
             $table->foreignId('job');
             $table->foreignId('update_given_by');
             $table->string('update_type');
-            $table->string('content');
+            $table->longText('content');
             $table->string('attachment')->nullable();
             $table->timestamps();
         });

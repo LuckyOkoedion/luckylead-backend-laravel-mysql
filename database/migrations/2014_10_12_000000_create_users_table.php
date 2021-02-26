@@ -19,7 +19,7 @@ class CreateUsersTable extends Migration
             $table->string('last_name');
             $table->string('picture')->nullable();
             $table->string('role');
-            $table->string('permissions');
+            $table->longText('permissions');
             $table->boolean('approved');
             $table->date('when_approved')->nullable();
             $table->foreignId('approved_by')->nullable();

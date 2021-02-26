@@ -17,7 +17,7 @@ class CreateJobsTable extends Migration
             $table->id();
             $table->foreignId('client');
             $table->string('title');
-            $table->string('description');
+            $table->longText('description');
             $table->string('attachment')->nullable();
             $table->date('deadline');
             $table->decimal('cost');

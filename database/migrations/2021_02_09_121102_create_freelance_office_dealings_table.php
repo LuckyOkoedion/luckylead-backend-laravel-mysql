@@ -23,7 +23,7 @@ class CreateFreelanceOfficeDealingsTable extends Migration
             $table->string('account_name')->nullable();
             $table->string('account_number')->nullabe();
             $table->string('bank_name')->nullable();
-            $table->string('bank_address')->nullable();
+            $table->longText('bank_address')->nullable();
             $table->string('specialty');
         });
     }
