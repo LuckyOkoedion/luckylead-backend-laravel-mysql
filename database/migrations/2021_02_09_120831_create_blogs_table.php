@@ -24,8 +24,8 @@ class CreateBlogsTable extends Migration
             $table->string('picture');
             $table->foreignId('approved_by')->nullable();
             $table->date('when_approved')->nullable();
-            $table->integer('claps')->nullable();
-            $table->boolean('approved')->nullable();
+            $table->integer('claps');
+            $table->boolean('approved');
         });
     }
 

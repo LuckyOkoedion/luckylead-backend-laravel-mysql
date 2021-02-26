@@ -18,12 +18,12 @@ class CreateUsersTable extends Migration
             $table->string('first_name');
             $table->string('last_name');
             $table->string('picture')->nullable();
-            $table->string('role')->nullable();
-            $table->string('permissions')->nullable();
-            $table->boolean('approved')->nullable();
+            $table->string('role');
+            $table->string('permissions');
+            $table->boolean('approved');
             $table->date('when_approved')->nullable();
             $table->foreignId('approved_by')->nullable();
-            $table->boolean('email_verified')->nullable();
+            $table->boolean('email_verified');
             $table->string('email')->unique();
             $table->date('email_verified_at')->nullable();
             $table->string('password');
